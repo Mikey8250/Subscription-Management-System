@@ -21,10 +21,9 @@ const userSchema = new mongoose.Schema(
         password: {
             type: String,
             required: true,
-            minLength: 8,
-            maxLength: 16        
+            minLength: 8       
         },
-    }, {timeStamps: true}
+    }, {timestamps: true}
 )
 
 const User = mongoose.model('User', userSchema)

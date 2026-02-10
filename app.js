@@ -19,7 +19,7 @@ app.use(arjectMiddleware)
 app.use("/api/v1/auth", authRouter)
 app.use("/api/v1/users", userRouter)
 app.use("/api/v1/subscriptions", subscriptionRouter)
-app.use("/api/v1/workflow", workflowRouter)
+app.use("/api/v1/workflows", workflowRouter)
 
 app.use(errorMiddleware)
 
